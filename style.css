@@ -1,10 +1,24 @@
-@font-face {
-     font-family: "font1";
-     src: url("font/DejavuSerif-lLyZ.ttf");
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style : normal;
+  font-variation-settings: 
+  "wdth" 300;
 }
 
-.font1 {
-     font-family: "font1";
+
+body{
+     margin-left: 10px;
+     background-color: aqua;
+}
+
+header{
+     background-color: rgb(0, 149, 255);
+}
+.hover:hover{
+     transform:scale(1.02)
+
 }
 
 .progress {
