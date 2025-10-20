@@ -11,57 +11,64 @@
     <header>
         <div class="photo">
         </div>
-        <h1 class="font1">Mathéo Saintamon</h1>
+        <h1 >Mathéo Saintamon</h1>
         <ul >
-            <li><a lass="hover" href="#resume">Resume</a></li>
-            <li><a href="#interser">Interest</a></li>
-            <li><a href="past.html">My Past</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#languages">Languages</a></li>
+            <li><a class="hover" href="#resume.html">Main</a></li>
+            <li><a class="hover" href="#resume">Resume</a></li>
+            <li><a class="hover" href="past.html">My Past</a></li>
+            <li><a class="hover" href="#skills">Skills</a></li>
+            <li><a class="hover" href="#languages">Languages</a></li>
         </ul>
     </header> 
-    <div>
-        <P class="resume"> 
-            Inspiré par les domaines mathématiques et scientifiques, j’oriente
-            mon cursus scolaire plus précisément vers le domaine des nouvelles
-            technologies informatiques.</P><br>
+    <main>
+        <section id="resume">
+        <h2>Resume and interest</h2>
+        <p>
+            My name is mathéo Saintamon, I am a first year in the bachelor cursus at Epitech 
+            Interested by the mathematical and scientific fields, I guide my school curriculum more precisely towards the field of new computer technologies.
+            I love doing sports like handball and surfing. I play a lot of competitive video games.
+        </p>
+        </section>
 
-        <p class="interest">
-            I love doing sports like handball and surf, i play a lot of competitive video game 
-        </p><br>
-
-        <P class="skills">
-            programation level
-        </P><br>
-        <p>python </p>
+        <section id="skills">
+        <h2>Programming Skills</h2>
+        <p>Python</p>
         <progress class="progress" max="100" value="80">80%</progress>
 
-        <p>javascript </p>
-        <progress class="progress" max="100" value="20">20%</progress>
+        <p>JavaScript</p>
+        <progress class="progress" max="100" value="5">5%</progress>
 
-        <p>swift </p>
+        <p>Swift</p>
         <progress class="progress" max="100" value="50">50%</progress>
 
-        <p>html </p>
-        <progress class="progress"  max="100" value="30">30%</progress>
+        <p>HTML</p>
+        <progress class="progress" max="100" value="30">30%</progress>
 
-        <p>other skills</p>
-        <p>utilisation de logiciel 3d <br>
-            animation d'activités ludiques et sportives
-
+        <h3>Other Skills</h3>
+        <p>
+            Utilisation de logiciels 3D<br>
+            Animation d'activités ludiques et sportives
         </p>
-        <P class="languages">
-            <ul>
-                <li>French : Native</li>
-                <li>English : C1</li>
-                <li>Spanish : B1</li>
-            </ul>
-        </P><br>
-        <footer><p>contact Me at :</p><br>
-            <a href="mailto:matheo.saintamon@epitech.eu">matheo.saintamon@epitech.eu</a><br>
-            <a href="tel:+33766574957">+33 7 66 57 49 57</a>
-        </footer>
-    </div>
-    
+        </section>
 
+        <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>French : Native</li>
+            <li>English : C1</li>
+            <li>Spanish : B1</li>
+        </ul>
+        </section>
+  </main>
+        <footer>
+            <h3>Contact me :</h3>
+            <form action="/ma-page-de-traitement" method="post">
+                <label for="name">Nom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" /><br>
+                <label for="mail">E-mail&nbsp;:</label>
+                <input type="email" id="mail" name="user_mail" /><br>
+                <label for="msg">Message&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea><br>
+            </form>
+        </footer>
 </body>

@@ -3,30 +3,35 @@
     <title>Mathéo Saintamon portfolio   </title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body >
+<body class="noto-serif">
     <header>
-        <div class="photo">
-        </div>
-        <h1 class="font1">Mathéo Saintamon</h1>
+        <h1>Mathéo Saintamon</h1>
         <ul>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#interser">Interest</a></li>
-            <li><a href="past.html">My Past</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#languages">Languages</a></li>
+            <li><a class="hover" href="#resume.html">Main</a></li>
+            <li><a class="hover" href="#education">education</a></li>
+            <li><a class="hover" href="past.html">My Past</a></li>
+            <li><a class="hover" href="#prof-ex">Skills</a></li>
+            <li><a class="hover" href="#languages">Languages</a></li>
         </ul>
     </header> 
     <p>you are probably wondering what is my past, did I graduate and what are my professional experiencies ? Here is all the info you wanted.</p>
     <P class="education">
-        <p><h3>My education</h3></p>
+        <p><h3>My previous school</h3></p>
         <ul>
             <li>2018-2022 : college Albert Camus Eysines</li>
             <li>2022-2025 : Lycée Sud Medoc Le Taillan-Médoc</li>
             <li>2025-now : Epitech program Bachelor</li>
         </ul>
     </p><br>
+    <P class="diplome">
+        <p><h3>My diploma</h3></p>
+        <ul>
+            <li>2022 : brevet mention very good</li>
+            <li>2025 : baccalaureate with fairly good honors</li>
+        </ul>
+    </p><br>
     <p>
-        <h3>professional experiencies : </h3><br>
+        <h3 class="prof-ex">professional experiencies : </h3><br>
         <ul>
             <li>
                 <h4>stage in 3eme as a geometer expert</h4><br>
@@ -53,4 +58,15 @@
             </li>
 </ul>       
     </p>
+    <footer>
+            <h3>Contact me :</h3>
+            <form action="/ma-page-de-traitement" method="post">
+                <label for="name">Nom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" /><br>
+                <label for="mail">E-mail&nbsp;:</label>
+                <input type="email" id="mail" name="user_mail" /><br>
+                <label for="msg">Message&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea><br>
+            </form>
+        </footer>
 </body>
